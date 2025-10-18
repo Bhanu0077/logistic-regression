@@ -10,7 +10,7 @@ from sklearn.metrics import (
 )
 
 # 1️⃣ Load Data
-df = pd.read_csv("C:\\CODE_DEX\\AI\\logistic-regression\\data.csv")
+df = pd.read_csv("\logistic-regression\data.csv")
 
 print("✅ Data Loaded Successfully!")
 print("📏 Dataset Shape:", df.shape)
@@ -69,3 +69,4 @@ plt.figure(figsize=(10, 8))
 sns.heatmap(df.corr(), annot=True, cmap="coolwarm")
 plt.title("Feature Correlation Heatmap")
 plt.show()
+
